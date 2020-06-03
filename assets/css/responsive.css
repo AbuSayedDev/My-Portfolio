@@ -1,0 +1,368 @@
+/* 481px and 768px */
+@media only screen 
+  and (min-width: 769px) 
+  and (max-width: 985px) {
+
+	/* ============> navemenuItem active CSS  <=============== */
+	.navemenuItem .active:before {
+	     margin: 0px; 
+	}
+	.navemenuItem .active:after{
+		left: 29px;
+		right: 0;
+	}
+	/* ============> about-area CSS  <=============== */
+	.about_photo_area{
+		margin-top:30px !important;
+	}
+	#about_area {
+		padding: 60px 0 140px 0;
+	}
+	.about_photo_area .img2 {
+		right: -69%;
+	}
+	/* ============> education-area CSS  <=============== */
+	.education-area{
+		height: 1120px;
+	}
+	.education-area::after {
+		height: 1120px;
+	}
+	.education_Right_photo{
+		margin-top: 50px;
+	}
+	/* ============> counter-area CSS  <=============== */
+	.counter-area::after {
+	    height: 734px;
+	}
+	/* ============> portfolio-area CSS  <=============== */
+	#portfolio-area {
+	    padding-top:50px;
+	}
+	.filter-menu {
+		padding-top: 20px;
+	}
+	/* ============> video-gallery CSS  <=============== */
+	.video-gallery::before{
+	  display: none;
+	}
+	.video_icon_photo {
+	    top: 50px;
+	    left: 32%;
+	}
+	/* ============> blog-area CSS  <=============== */
+	#blog-area {
+		padding: 100px 0 50px 0;
+	}
+	/* ============> blog-area CSS  <=============== */
+	.footer-area {
+		padding: 50px 0;
+	}
+/* ===================
+	Contant-area CSS  
+====================== */
+	.contant-area {
+		padding: 40px 0;
+	}
+/* ===================
+	Singleblog-area CSS  
+====================== */
+	.singleblog_service {
+		margin-top: 0px;
+	}
+	.comment-area {
+		padding: 30px 0;
+	}
+	.comment_heading {
+		margin: 20px 0 30px 0;
+	}
+	.media_photo {
+		width: 65%;
+	} 
+	.form-area {
+		margin-bottom: 15px;
+	}
+
+  }
+
+
+/* 481px and 768px */
+@media only screen and (min-width: 481px) and (max-width: 768px) { 
+	
+	/* ============> navemenuItem active CSS  <=============== */
+	.navemenuItem .active:before {
+	     margin: 0px; 
+	}
+	.navemenuItem .active:after{
+		left: 29px;
+		right: 0;
+	}
+
+	/* ============> atyped_wrap CSS  <=============== */
+	.typed_wrap {
+
+	    width: 56%;
+	}
+
+	/* ============> about_area CSS  <=============== */
+	#about_area {
+    	padding: 50px 0 150px 0;
+	}
+	.about_photo{
+		margin-top: 20px;
+	}
+
+	/* ============> education-area CSS  <=============== */
+	.education-area{
+		height: 1459px;
+	}
+	.education-area::after {
+		height: 1459px;
+	}
+	.education_content_area .education_content .education_item .educationa_date_area {
+		width: 30%;
+		margin-right: 30px;
+	}
+	.education_content_area .education_content .education_item .education_details .education_icon_and_title .education_icon {
+		width: 20%;
+	}
+	.education_Right_photo{
+		margin-top: 50px;
+	}
+
+	/* ============> skills-area CSS  <=============== */
+	.skill_progress_heading {
+		margin-bottom: 37px;
+	}
+	.skills-area {
+		padding: 40px 0 80px 0;
+	}
+
+	/* ============> counter-area CSS  <=============== */
+	.counter-area::after {
+	    height: 1348px;
+	}
+
+	/* ============> portfolio-area CSS  <=============== */
+	#portfolio-area {
+	    padding: 50px 0;
+	}
+	.filter-menu {
+		padding-top: 35px;
+	}
+	/* ============> services-area CSS  <=============== */
+	.services .icon {
+	   left: 36%;
+	}
+	.services {
+		margin-bottom: 80px;
+	}
+	/* ============> video-gallery CSS  <=============== */
+	.line {
+		width: 60%;
+	}
+	.line::before {
+		left: 20%;
+	}
+	.line::after {
+		right: 20%;
+	}
+	.video-gallery::before{
+	  display: none;
+	}
+	.video-right-heading{
+		margin-top: 30px;
+	}
+	/* ============> blog-area CSS  <=============== */
+	#blog-area {
+	    padding: 60px 0;
+	}
+
+	/* ============> blog-area CSS  <=============== */
+	.footer-area {
+	    padding: 50px 0;
+	}
+/* ===================
+	Contant-area CSS  
+====================== */
+	.contant-area {
+		padding: 30px 0;
+	}
+/* ===================
+	Singleblog-area CSS  
+====================== */
+	.Singleblog_heading{
+		text-align: center;
+	}
+	.singleblog_service {
+		margin-top: 0px;
+	}
+	.comment-area {
+		padding: 30px 0;
+	}
+	.comment_heading {
+		margin: 20px 0 30px 0;
+	}
+	.comment_heading h4{
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+	}
+	.media_photo {
+		width: 65%;
+	}
+	.form-area {
+		margin-bottom: 15px;
+	}
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+	
+	/* ============> navemenuItem active CSS  <=============== */
+	.navemenuItem .active:before {
+	     margin: 0px; 
+	}
+	.navemenuItem .active:after{
+		left: 29px;
+		right: 0;
+	}
+	
+	/* ============> atyped_wrap CSS  <=============== */
+	.typed_wrap {
+
+	    width: 100%;
+	    border: none;
+	}
+	/* ============> about_area CSS  <=============== */
+	#about_area {
+	    padding: 40px 0px 240px 0px;
+	}
+	.about_photo{
+		margin-top: 20px;
+	}
+	.about_photo_area .img2 {
+	    top: 83%;
+	}
+	/* ============> education-area CSS  <=============== */
+	.education-area{
+		height: 1459px;
+		padding: 50px 0 0 0;
+	}
+	.education_heading h1{
+		text-align: center;
+	}
+	.education-area::after {
+		height: 1459px;
+	}
+	.education_content_area .education_content .education_item .educationa_date_area {
+		margin-right: 25px;
+	}
+	.education_details .education_icon_and_title .education_icon {
+		width: 30% !important;
+	}
+	.education_Right_photo{
+		margin-top: 50px;
+	}
+
+	/* ============> skills_area CSS  <=============== */
+	.skills-area {
+		padding: 40px 0 80px 0;
+	}
+	.skill_progress_heading {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	/* ============> portfolio-area CSS  <=============== */
+	.filter-menu {
+		padding-top: 17px;
+	}
+
+	/* ============> counter-area CSS  <=============== */
+	.counter-area::after {
+	    height: 1348px;
+	}
+
+	/* ============> services-area CSS  <=============== */
+	.service_heading{
+		text-align: center;
+	}
+	.service_heading h1{
+		font-size: 24px;
+	}
+	.services .icon {
+	   left: 30%;
+	}
+	/* ============> portfolio-area CSS  <=============== */
+	#portfolio-area {
+	    padding: 20px 0 50px;
+	}
+	.protfolio_title{
+		text-align: center;
+	}
+	/* ============> video-gallery CSS  <=============== */
+	.line {
+		width: 60%;
+	}
+	.line::before {
+		left: 20%;
+	}
+	.line::after {
+		right: 20%;
+	}
+	.video-gallery::before{
+	  display: none;
+	}
+	.video-right-heading{
+		margin-top: 30px;
+	}
+	/* ============> blog-area CSS  <=============== */
+	#blog-area {
+	    padding: 46px 0;
+	}
+	.blog_heading{
+		text-align: center;
+	}
+	/* ============> footer-area CSS  <=============== */
+	.footer-area {
+	    padding: 35px 0;
+	}
+
+/* ===================
+	Contant-area CSS  
+====================== */
+	.contant-area {
+		padding: 30px 0;
+	}
+/* ===================
+	Singleblog-area CSS  
+====================== */
+	.Singleblog_heading{
+		text-align: center;
+	}
+	.singleblog_service {
+		margin-top: 0px;
+	}
+	.comment-area {
+		padding: 30px 0;
+	}
+	.comment_heading {
+		margin: 20px 0 30px 0;
+	}
+	.comment_heading h4{
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+	}
+	.media_photo {
+		width: 65%;
+	}
+	.form-area {
+		margin-bottom: 15px;
+	}
+}
